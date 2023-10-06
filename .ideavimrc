@@ -1,0 +1,10 @@
+set visualbell
+set noerrorbells
+
+" let mapleader = "\\"
+nnoremap <leader>vv :e ~\\.ideavimrc<CR>
+vmap = <Action>(AutoIndentLines)
+nmap <Leader>ff <Action>(GotoFile)
+nmap gcc :action CommentByLineComment<CR>
+vmap gc :action CommentByLineComment<CR>
+
