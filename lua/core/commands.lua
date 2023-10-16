@@ -9,7 +9,7 @@ end,
 })
 
 vim.cmd([[iab <expr> dts strftime("%c")]])
-vim.cmd([[iab <expr> taskme "- [ ] "]])
+vim.cmd([[iab <expr> taskme "- [ ]"]])
 
 vim.api.nvim_create_user_command("ToggleCheckbox", function(_)
     local checked_character = ""

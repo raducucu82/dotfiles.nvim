@@ -18,7 +18,8 @@ return {
         'regex',
         'bash',
         'toml',
-        'html'
+        'html',
+        'c_sharp'
       },
       highlight = { 
         enable = true,
