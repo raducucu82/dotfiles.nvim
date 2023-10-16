@@ -1,6 +1,9 @@
 set visualbell
 set noerrorbells
 
+set ignorecase
+set smartcase
+
 " let mapleader = "\\"
 nnoremap <leader>vv :e ~\\.ideavimrc<CR>
 vmap = <Action>(AutoIndentLines)
