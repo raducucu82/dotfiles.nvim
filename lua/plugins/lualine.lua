@@ -4,7 +4,9 @@ return {
     event = "VeryLazy",
     opts = function()
       return {
-        options = { theme  = 'dracula' },
+        options = { 
+          theme  = 'tokyonight' 
+        },
         sections = {
           lualine_c = {
             {

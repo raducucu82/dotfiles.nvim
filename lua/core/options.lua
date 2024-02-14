@@ -4,6 +4,8 @@ local g = vim.g
 -- Cursor highlighting
 opt.cursorline = true
 
+opt.guifont = "JetBrainsMono Nerd Font:h9:sb"
+
 -- Searching
 opt.smartcase = true
 opt.hlsearch = true
@@ -102,3 +104,7 @@ g.matchup_matchparen_deferred = 1
 -- Sheak settings
 g["sneak#s_next"] = 1
 g["sneak#label"] = 1
+
+if g.neovide then
+  g.neovide_cursor_animation_length = 0
+end

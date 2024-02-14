@@ -55,3 +55,10 @@ end,
 {
     force = true,
 })
+
+vim.api.nvim_create_user_command("ResetFont", function(_)
+    vim.o.guifont = "JetBrains Mono:h11"
+end,
+{
+    force = true,
+})
