@@ -17,7 +17,7 @@ return {
         desc = 'Files',
       },
       {
-        ';',
+        '<C-p>',
         function()
           return require('telescope.builtin').buffers()
         end,

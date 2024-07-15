@@ -12,6 +12,23 @@ if vim.fn.has("gui_running") then
   -- vim.opt.guifont = "JetBrains Mono NF"
 end
 
+local function write_server_name()
+    local server_name = vim.api.nvim_eval('v:servername')
+    local home_dir = os.getenv("LOCALAPPDATA")
+
+    local file_path = home_dir .. "/nvim-data/servername.txt"
+
+    local file, err = io.open(file_path, "w")
+    if err then
+        return
+    end
+
+    file:write(server_name)
+    file:close()
+end
+
+write_server_name()
+
 safe_require('core.options')
 safe_require('core.keymaps')
 safe_require('core.commands')

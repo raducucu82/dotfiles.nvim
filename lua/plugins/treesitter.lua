@@ -23,6 +23,7 @@ return {
       },
       highlight = { 
         enable = true,
+        disable = { "yaml" }
       },
       indent = { enable = true },
       ignore_install = { '' },
