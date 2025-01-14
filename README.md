@@ -1,5 +1,7 @@
 # dotfiles.nvim
 
+## Info 
+
 ## :arrow_up: Update
 `:Lazy` + `Shift + U`
 <br/>
