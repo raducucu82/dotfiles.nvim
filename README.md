@@ -12,7 +12,10 @@
 
 ## :handshake: Dependencies
 ### C/C++ compiler
-- Windows: `msys2` or [`Build Tools for Visual Studio 2022`](https://aka.ms/vs/17/release/vs_BuildTools.exe)
+- Windows: 
+    - __Recommended: [mingw](https://winlibs.com/#download-release)__
+    - `msys2` 
+    - [`Build Tools for Visual Studio 2022`](https://aka.ms/vs/17/release/vs_BuildTools.exe)
 - Ubuntu: `sudo apt update && sudo apt install build-essential`
 
 ### `file` command

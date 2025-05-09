@@ -7,6 +7,11 @@ local function safe_require(module)
   vim.cmd.echo('Error loading ' .. module)
 end
 
+if vim.loop.os_uname().sysname == "Windows_NT" then
+    -- Require the Windows-specific configuration
+    require("windows")
+end
+
 if vim.fn.has("gui_running") then
   -- vim.cmd("set guifont=JetBrains\\ Mono\\ NF")
   -- vim.opt.guifont = "JetBrains Mono NF"

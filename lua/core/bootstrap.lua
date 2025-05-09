@@ -15,7 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 local opts = {
   git = { log = { '--since=3 days ago' } },
   ui = { custom_keys = { false } },
-  checker = { enabled = true },
+  checker = { enabled = false },
 }
 
 -- Load the plugins and options
