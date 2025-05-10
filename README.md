@@ -26,7 +26,7 @@
 - Linux: `apt install fd-find`
 
 ### [fzf](https://github.com/junegunn/fzf)
-- Windows: `winget install fzf`
+- Windows: `winget install junegunn.fzf`
 - Linux: `sudo apt install fzf` 
 
 ### [ripgrep](https://github.com/BurntSushi/ripgrep)
